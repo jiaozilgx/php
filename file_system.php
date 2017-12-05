@@ -10,6 +10,6 @@ if(!is_dir("test/haha")){
     mkdir("test/haha");
 }
 
-
-
-
+if(!is_dir("demo/ppp")){
+    mkdir("demo/ppp",0777,true);
+}
