@@ -7,7 +7,7 @@
  */
 if(!is_dir("test/haha")){
     mkdir("test/");
-    mkdir("haha");
+    mkdir("test/haha");
 }
 
 
